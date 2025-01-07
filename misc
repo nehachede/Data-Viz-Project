@@ -1,0 +1,30 @@
+DataViz
+
+# stream kings
+
+We used Spotify’s global stream data to identify and rank the top artists. We specifically used the name of the artists and th etotal number of streams across the globe for each track. 
+
+The data reveals a steep drop from the top-ranked artist in the year 2017-2018, Ed Sheeran, with 9 billion streams, to others in the mid-ranked group, clustered between 3 to 4 billion streams. Notably, this group includes artists from a wide range of genres such as pop, hip-hop, EDM, and R&B.
+
+This chart highlights his clear dominance in the streaming world. This pattern suggests a logarithmic trend, where a small number of artists achieve massive popularity, while the rest have more modest followings.
+
+# top 50 tracks
+
+Next, we looked at the top 50 most-streamed tracks globally using data on tracks, streams, and artist. The focus was on total stream counts to see which songs are the most popular.
+
+'Shape of You' by Ed Sheeran stands out with 3 billion streams, far ahead of the rest. 'Despacito' remix in second with 1.8 billion streams, followed by the Despacito at 1.4 billion streams. 
+
+The top 50 tracks, spanning pop, reggaeton, and more, highlight global music diversity, with a few songs dominating the charts.
+
+# ed sheeran global 
+
+Given that Ed Sheeran is the most-streamed artist globally with 'Shape of You' topping the charts, we wanted to dive deeper into his regional impact. The map highlights his massive presence, particularly in the UK - which makes sense as he is a British singer/songwriter. We also see notable popularity across Western Europe, but fewer tracks in emerging markets in South America, Asia, and Africa.
+
+# correlation
+With access to vast amounts of song data, we have the opportunity to delve deeper into the factors influencing a song's popularity.
+
+This research explores the relationship between lyrical complexity and song popularity. By leveraging natural language processing techniques, we analyzed the lyrics of over 60,000 songs from Spotify. We focused on readability metrics like the Flesch-Kincaid Index to quantify lyrical complexity. The Flesch-Kincaid Index measures readability based on sentence length and syllable count, while the Gunning Fog Index assesses readability based on sentence length and word difficulty.
+
+Interestingly, we found a discrepancy between these two metrics. While the Flesch-Kincaid Index suggests extreme difficulty, the Gunning Fog Index indicates extreme simplicity. This inconsistency might be due to the limitations of these metrics or the unique nature of song lyrics.
+
+Ultimately, we seek to understand whether simpler or more complex lyrics drive higher popularity in music."
